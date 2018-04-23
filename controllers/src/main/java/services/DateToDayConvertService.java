@@ -9,7 +9,7 @@ import java.util.Date;
 
 
 @Service
-public class DateToDayConvert {
+public class DateToDayConvertService {
 
     public String weekDay(String date) throws ParseException {
 

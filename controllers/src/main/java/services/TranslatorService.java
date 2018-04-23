@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 
-public class Translator {
+public class TranslatorService {
 
     public static void main(String[] args) throws Exception {
-        Translator http = new Translator();
+        TranslatorService http = new TranslatorService();
         String word = http.translate("bg", "en", "кола");
 
         System.out.println(word);

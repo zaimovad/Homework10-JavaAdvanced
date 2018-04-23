@@ -12,11 +12,11 @@ import java.text.ParseException;
 
 public class DateController {
 
-    private final DateToDayConvert service;
+    private final DateToDayConvertService service;
 
-    @Autowired
 
-    public DateController(DateToDayConvert service) {
+
+    public DateController(DateToDayConvertService service) {
         this.service = service;
     }
 

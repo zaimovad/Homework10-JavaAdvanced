@@ -1,20 +1,20 @@
-package controllers.calculator;
+package controllers;
 
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import services.CalculatorService;
 
 @RestController
-@RequestMapping("/calculator")
+@RequestMapping("/service")
 public class CalculatorController {
 
-    private final Calculator service;
+    private final CalculatorService service;
 
-    @Autowired
 
-    public CalculatorController(Calculator service) {
+
+    public CalculatorController(CalculatorService service) {
         this.service = service;
     }
 
@@ -34,14 +34,14 @@ public class CalculatorController {
 
     @RequestMapping("/multiply")
     public double multiply (@RequestParam(value = "number1") double number1,
-                       @RequestParam(value = "umber2") double number2) {
+                       @RequestParam(value = "number2") double number2) {
         return service.multiply(number1, number2);
     }
 
-    @RequestMapping("/devide")
-    public double devide (@RequestParam(value = "number1") double number1,
-                            @RequestParam(value = "umber2") double number2) {
-        return service.devide(number1, number2);
+    @RequestMapping("/divide")
+    public double divide (@RequestParam(value = "number1") double number1,
+                            @RequestParam(value = "number2") double number2) {
+        return service.divide(number1, number2);
     }
 
 }

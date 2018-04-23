@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class TranslatorController {
 
-    private final Translator service;
+    private final TranslatorService service;
 
-    @Autowired
-    public TranslatorController(Translator service) {
+
+    public TranslatorController(TranslatorService service) {
         this.service = service;
     }
 

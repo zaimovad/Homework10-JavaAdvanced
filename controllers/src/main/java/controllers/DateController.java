@@ -1,14 +1,14 @@
-package controllers.dateconverter;
+package controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import services.DateToDayConvertService;
 
 import java.text.ParseException;
 
 @RestController
-@RequestMapping("/dateconverter")
+@RequestMapping("/services")
 
 public class DateController {
 

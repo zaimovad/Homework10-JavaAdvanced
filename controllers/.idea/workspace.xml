@@ -530,7 +530,7 @@
       <workItem from="1522778886434" duration="2898000" />
       <workItem from="1523536216507" duration="5783000" />
       <workItem from="1523547608798" duration="8216000" />
-      <workItem from="1524476515426" duration="1083000" />
+      <workItem from="1524476515426" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Additional features&quot;">
       <created>1524477169893</created>
@@ -567,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524477540922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;homework10&quot;">
+      <created>1524477616542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524477616542</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31584000" />
+    <option name="totallyTimeSpent" value="31605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
